@@ -11,8 +11,15 @@ body {
   color: #777777;
 }
 .text-primary {
-  color: #f63;
+  color: #160040;
 }
+
+/* community */
+#cc
+{
+  background-image: url(../img/comclass.JPG);
+}
+
 p {
   font-size: 14px;
   line-height: 1.75;
@@ -148,11 +155,11 @@ fieldset[disabled] .btn-xl.active {
   background-color: white;
 }
 .navbar-custom {
-  background-color: #222222;
+  background-color: #B958A5;
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-  color: #f63;
+  color: #9A0680;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-custom .navbar-brand:hover,
@@ -227,7 +234,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('../img/software-developer.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
