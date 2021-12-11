@@ -35,7 +35,7 @@ a.active {
   outline:none;
 }
 a {
-  color: #f63;
+  color: #B83B5E;
 }
 a:hover,
 a:focus,
@@ -63,10 +63,14 @@ h6 {
   background-color: #222222;
     
 }
+.explore{
+
+  border-radius: 12px;
+}
 .btn-primary {
   color: white;
-  background-color: #f63;
-  border-color: #f63;
+  background-color: #B83B5E;
+  border-color: #B83B5E;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -77,8 +81,8 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #f63;
-  border-color: #f63;
+  background-color: #B83B5E;
+  border-color: #B83B5E;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -100,21 +104,21 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #f63;
-  border-color: #f63;
+  background-color: #fB83B5;
+  border-color: #B83B5E;
 }
 .btn-primary .badge {
-  color: #f63;
+  color: #B83B5E;
   background-color: white;
 }
 .btn-xl {
   color: white;
-  background-color: #f63;
-  border-color: #f63;
+  background-color: #B83B5E;
+  border-color: #B83B5E;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  border-radius: 3px;
+  border-radius: 32px;
   font-size: 18px;
   padding: 20px 40px;
 }
@@ -124,8 +128,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: #f63;
-  border-color: #f63;
+  background-color: #B83B5E;
+  border-color: #B83B5E;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -147,11 +151,11 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-  background-color: #f63;
-  border-color: #f63;
+  background-color: #B83B5E;
+  border-color: #B83B5E;
 }
 .btn-xl .badge {
-  color: #f63;
+  color: #B83B5E;
   background-color: white;
 }
 .navbar-custom {
@@ -159,7 +163,7 @@ fieldset[disabled] .btn-xl.active {
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-  color: #9A0680;
+  color: #B83B5E;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-custom .navbar-brand:hover,
@@ -169,11 +173,11 @@ fieldset[disabled] .btn-xl.active {
   color: #fec503;
 }
 .navbar-custom .navbar-collapse {
-  border-color: rgba(255, 255, 255, 0.02);
+  border-color: transparent;
 }
 .navbar-custom .navbar-toggle {
-  background-color: #f63;
-  border-color: #f63;
+  background-color: #B83B5E;
+  border-color: #B83B5E;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
@@ -181,7 +185,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #f63;
+  background-color: #B83B5E;
 }
 .navbar-custom .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -192,18 +196,18 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #f63;
+  color: #c75173;
   outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
-  background-color: #f63;
+  background-color: #B83B5E;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #f63;
+  background-color: #B83B5E;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -226,7 +230,7 @@ fieldset[disabled] .btn-xl.active {
 }
 @media (min-width: 768px) {
   .navbar-custom.affix {
-    background-color: #222222;
+    background-color: #3a3939;
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
@@ -244,6 +248,11 @@ header {
   -o-background-size: cover;
   text-align: center;
   color: white;
+}
+.site-name{
+  font-family: 'Caveat','cursive';
+  font-size: 5px;
+
 }
 header .intro-text {
   padding-top: 100px;
@@ -429,7 +438,7 @@ section h3.section-subheading {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #f63;
+  background-color: #B83B5E;
   color: white;
   border-radius: 100%;
   border: 7px solid #f1f1f1;
@@ -662,7 +671,7 @@ ul.social-buttons li a:active {
 .btn:active:focus {
   outline: none;
     background-color:aliceblue;
-    color:#f63;
+    color:#B83B5E;
 
     
 }
@@ -757,7 +766,7 @@ img::-moz-selection {
 }
 
 h4{
-    color:firebrick;
+    color:#6A2C70;
 }
 /*
 iframe{
