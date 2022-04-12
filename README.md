@@ -1,3 +1,3 @@
-# fitofit
-This is a basic gym website
+# Open Source Buddy
+
 feel free to improve 
