@@ -16,7 +16,7 @@ git config --global user.name "github username"
 ```
 
 ```bash
-git config --global user.email "email address"
+   git config --global user.email email-address
 ```
 
 ## 2.  Go to the first-contribution repository and Fork it.
