@@ -45,7 +45,7 @@ Yes ofcourse. You can view it online at amansarraf.github.io/Opensource-Buddy/
 
 Yes it is. 
 
-## Contributors
+<!-- ## Contributors
 
 - [@AmanSarraf](https://www.github.com/AmanSarraf)
 - [@cleverhare](https://www.github.com/cleverhare)
@@ -53,7 +53,9 @@ Yes it is.
 - [@Pranav-Rustagi](https://github.com/Pranav-Rustagi)
 - [@ishani-1255](https://github.com/ishani-1255)
 
-Thank You Very Much for Contributing. 
+Thank You Very Much for Contributing.  -->
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
 
 
 ## 🛠 Technologies Used
