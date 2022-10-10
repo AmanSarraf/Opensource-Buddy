@@ -49,6 +49,9 @@ Yes it is.
 
 - [@AmanSarraf](https://www.github.com/AmanSarraf)
 - [@cleverhare](https://www.github.com/cleverhare)
+- [@chaman-rawat](https://github.com/chaman-rawat)
+- [@Pranav-Rustagi](https://github.com/Pranav-Rustagi)
+- [@ishani-1255](https://github.com/ishani-1255)
 
 Thank You Very Much for Contributing. 
 
