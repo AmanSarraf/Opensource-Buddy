@@ -609,13 +609,32 @@ section#contact .form-group {
 }
 section#contact .form-group input,
 section#contact .form-group textarea {
-  padding: 20px;
+  font-size: 2rem;
+  padding: 10px;
+  background-color: #202020;
+  color: #ef4373;
+  letter-spacing: 0.1rem;
 }
+
+section#contact .form-group input::placeholder,
+section#contact .form-group textarea::placeholder {
+  color:#707070;
+  font-size: 1.5rem ;
+}
+
+
+section#contact .form-group input:focus,
+section#contact .form-group textarea:focus {
+   border: 1px solid #B83B5E;
+   box-shadow: 0 0 2px #B83B5E;
+   background-color: #222222;
+}
+
 section#contact .form-group input.form-control {
   height: auto;
 }
 section#contact .form-group textarea.form-control {
-  height: 236px;
+  height: 200px;
 }
 section#contact .form-control:focus {
   border-color: #fed136;
@@ -648,7 +667,7 @@ section#contact :-ms-input-placeholder {
   color: #eeeeee;
 }
 section#contact .text-danger {
-  color: #e74c3c;
+  color: #d54a71;
 }
 footer {
   padding: 25px 0;
