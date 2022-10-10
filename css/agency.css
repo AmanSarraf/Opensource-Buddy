@@ -61,7 +61,7 @@ h6 {
 }
 .bg-darkest-gray {
   background-color: #222222;
-    
+
 }
 .explore{
 
@@ -385,7 +385,7 @@ section h3.section-subheading {
   margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption {
-  max-width: 400px;
+  max-width: 280px;
   margin: 0 auto;
   background-color: white;
   text-align: center;
@@ -698,7 +698,7 @@ ul.social-buttons li a:active {
     background-color:aliceblue;
     color:#B83B5E;
 
-    
+
 }
 
 .portfolio-modal .modal-dialog {
@@ -801,7 +801,7 @@ iframe{
     padding-bottom: 80px;
 }
 .reach{
-    margin-top:175px; 
+    margin-top:175px;
 }*/
 .ccimage{
   width: 180px;
@@ -817,7 +817,7 @@ iframe{
 }
 .ossbox
 {
- 
+
   height: 10vh;
 
 }
