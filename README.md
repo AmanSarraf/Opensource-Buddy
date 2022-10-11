@@ -64,6 +64,6 @@ Thank You Very Much for Contributing.  -->
 
 HTML, CSS, SCSS. Less JavaScript, PHP
 
-## Acknoledgement
+## Acknowledgment
 
 Thanks for making it till the very end. Have a nice day
