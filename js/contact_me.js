@@ -1,5 +1,12 @@
 // Contact Form Scripts
+function isInputNumber(evt){
 
+    var ch = String.fromCharCode(evt.which);
+
+    if(!(/[0-9]/.test(ch))){
+        evt.preventDefault();
+    }
+}
 $(function() {
 
     $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
@@ -43,7 +50,7 @@ $(function() {
                     $('#contactForm').trigger("reset");
                 },
                 error: function() {
-                    // Fail message
+        
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
