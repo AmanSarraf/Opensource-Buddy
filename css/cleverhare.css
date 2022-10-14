@@ -1,0 +1,10 @@
+/* The below code is written on the latest PR and thats for the fix of styling  */
+/* Kindly merge it at the right place  */
+.issue-box{
+    transition: all .5s ease;
+    cursor: pointer;
+}
+.issue-box:hover{
+    opacity: 0.8;
+    transform: translateY(-15px);
+}
