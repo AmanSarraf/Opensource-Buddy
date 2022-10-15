@@ -56,6 +56,7 @@ Yes it is.
 Thank You Very Much for Contributing.  -->
 
 ### Contributors
+<!-- readme: contributors -start -->
 
 <table>
 <tr>
@@ -133,7 +134,7 @@ Thank You Very Much for Contributing.  -->
     </td>
 </tr>
 </table>
-<!-- readme: contributors -start -->
+
 <!-- readme: contributors -end -->
 
 
