@@ -209,16 +209,3 @@ Thank You Very Much for Contributing.  -->
             <sub style="font-size:14px"><b>Soumyajit Brahma </b></sub>
         </a>
     </td>
-</tr>
-</table>
-
-<!-- readme: contributors -end -->
-
-
-## 🛠 Technologies Used
-
-HTML, CSS, SCSS. Less JavaScript, PHP
-
-## Acknowledgment
-
-Thanks for making it till the very end. Have a nice day
