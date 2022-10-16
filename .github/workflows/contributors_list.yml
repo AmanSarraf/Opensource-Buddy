@@ -10,9 +10,6 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - uses: docker://cjdenio/contributor_list:latest
-        with:
-          CONTRIBUTOR: '# Contributors'
-          ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          PATH: '/CONTRIBUTORS.md'
+       
     
         
