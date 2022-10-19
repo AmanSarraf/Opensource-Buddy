@@ -56,6 +56,3 @@ Yes it is.
 Thank You Very Much for Contributing.  -->
 
 ### Contributors
-
-<!-- readme: contributors -start -->
-<!-- readme: contributors -end -->
