@@ -39,7 +39,7 @@ More on contribution.md file so do check that out.
 
 #### Can I view it without downloading ?
 
-Yes ofcourse. You can view it online at amansarraf.github.io/Opensource-Buddy/
+Yes ofcourse. You can view it online at [opensourcebuddy.tech](http://opensourcebuddy.tech/)
 
 #### Is this a hacktoberfest certified repo ?
 
@@ -147,3 +147,5 @@ Thank You Very Much for Contributing.  -->
     </td>
 </tr>
 </table>
+
+Thank You Very Much for Contributing.
