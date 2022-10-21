@@ -52,7 +52,7 @@ We would like to announce our first community meetup for our Contributor.
 
 - Open Source Buddy Development Meeting (Releases, roadmap/features/RFC planning and discussion, issue triage/discussion, Community and project-level updates, community sharing/demo, office hours)
 - Time: 9.00 PM IST
-- Date: 21-10-2022
+- Date: 22-10-2022
 - [Join here](https://us04web.zoom.us/j/74956325626?pwd=LZj4KexkMk8xIjsG9e23JlLifOMbK6.1)
 - Meeting ID: 749 5632 5626
 - Passcode: WeAreOSB
