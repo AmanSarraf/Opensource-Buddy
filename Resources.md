@@ -1,0 +1,7 @@
+## Resources:- 
+
+### frontend:- 
+
+### Backend:- 
+
+### DevOps:- 
