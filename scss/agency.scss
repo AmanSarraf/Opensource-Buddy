@@ -1,5 +1,5 @@
-@import 'variables';
-@import 'mixins';
+@import "variables";
+@import "mixins";
 
 // Global Components
 
@@ -149,7 +149,7 @@ h6 {
   }
 }
 
-@media(min-width:768px) {
+@media (min-width: 768px) {
   .navbar-default {
     background-color: transparent;
     padding: 25px 0;
@@ -181,7 +181,7 @@ h6 {
 }
 
 header {
-  background-image: url('../img/header-bg.jpg');
+  background-image: url("../img/header-bg.jpg");
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
@@ -211,7 +211,7 @@ header {
   }
 }
 
-@media(min-width:768px) {
+@media (min-width: 768px) {
   header {
     .intro-text {
       padding-top: 300px;
@@ -257,7 +257,7 @@ section {
   }
 }
 
-@media(min-width:768px) {
+@media (min-width: 768px) {
   section {
     padding: 150px 0;
   }
@@ -345,7 +345,7 @@ section {
   }
 }
 
-@media(min-width:767px) {
+@media (min-width: 767px) {
   #portfolio {
     .portfolio-item {
       margin: 0 0 30px;
@@ -465,14 +465,14 @@ section {
   }
 
   .timeline-body {
-     > p,
+    > p,
     > ul {
       margin-bottom: 0;
     }
   }
 }
 
-@media(min-width:768px) {
+@media (min-width: 768px) {
   .timeline {
     &:before {
       left: 50%;
@@ -511,7 +511,7 @@ section {
   }
 }
 
-@media(min-width:992px) {
+@media (min-width: 992px) {
   .timeline {
     > li {
       min-height: 150px;
@@ -539,7 +539,7 @@ section {
   }
 }
 
-@media(min-width:1200px) {
+@media (min-width: 1200px) {
   .timeline {
     > li {
       min-height: 170px;
@@ -599,7 +599,7 @@ aside.clients {
 
 section#contact {
   background-color: $gray-darkest;
-  background-image: url('../img/map-image.png');
+  background-image: url("../img/map-image.png");
   background-position: center;
   background-repeat: no-repeat;
 
@@ -717,7 +717,7 @@ ul.social-buttons {
 }
 
 .portfolio-modal {
-  .modal-dialog{
+  .modal-dialog {
     margin: 0;
     height: 100%;
     width: auto;
