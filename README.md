@@ -49,7 +49,7 @@ Yes it is.
 We would like to announce our first community meetup for our Contributor.
 
 ### OpenSourceBuddy Community dev-meet #1
-Saturday, October 22 · 9:00 – 10:00am
+Saturday, October 22 · 10:00 – 11:00pm
 Google Meet joining info
 Video call link: https://meet.google.com/ied-rcxm-cbj
 
