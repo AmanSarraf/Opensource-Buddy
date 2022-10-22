@@ -101,7 +101,7 @@
                 <div class="intro-lead-in" id="typed-strings">
 
 
-                    Opensource for everyone
+                    Opensource for <span class="runningtext"></span>
 
 
 
@@ -690,7 +690,17 @@
 
     <script src="js/contributors.js"></script>
     <script src="js/scrolltoTop.js"></script>
-
+ <!-- library for running text in js  -->
+ <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+ <!-- added in running text on headline  -->
+ <script>
+     var typed = new Typed('.runningtext', {
+strings: ["For Everyone","is about collaboration","is NOT about competition","For the Community","By the Community"],
+typeSpeed: 90,
+backSpeed:100,
+loop:true
+});
+ </script>
 </body>
 
 </html>
