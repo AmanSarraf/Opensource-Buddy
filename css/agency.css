@@ -857,3 +857,6 @@ iframe{
 .ossbox {
   height: 10vh;
 }
+.runningtext{
+  color: yellow;
+}
