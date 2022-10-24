@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
+    <link rel="shortcut icon" href="./img/about/confidence.png" />
     <title>Opensource Buddy</title>
 
     <!-- Bootstrap Core CSS -->
@@ -24,6 +24,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/scrolltoTop.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- Theme CSS -->
@@ -35,6 +36,9 @@
 </head>
 
 <body id="page-top" class="index">
+    <button onclick="scrolltoTop()" id="scrollBtn">
+        <img src="./img/up.png">
+    </button>
 
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -65,8 +69,8 @@
                             Community</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio"><i class="fa fa-picture-o" aria-hidden="true"></i>
-                            Programms</a>
+                        <a class="page-scroll" href="#portfolio"><i class="fa-regular fa-rectangle-list" aria-hidden="true"></i>
+                            Programs</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#team"><i class="fa fa-users" aria-hidden="true"></i>
@@ -98,12 +102,13 @@
                 <div class="intro-lead-in" id="typed-strings">
 
 
-                    Opensource for everyone
+                    Opensource for <span class="runningtext"></span>
 
 
 
 
-                    <!-- Opensource for everyone -->
+                    <!-- 
+                        Opensource for everyone -->
 
 
 
@@ -128,7 +133,7 @@
     <section id="services text-center">
         <div class="container ossbox text-center">
             <div class="col-sm-12 text-center">
-                <h2 class="section-heading"><i class="fa fa-github" aria-hidden="true"></i> What it means to contribute
+                <h2 class="section-heading">What it means to contribute
                 </h2>
                 <h3 class="section-subheading text-muted">If you’re a new open source contributor, the process can be
                     intimidating. How do you find the right project? What if you don’t know how to code? What if
@@ -357,7 +362,7 @@
                       <div class="cardcontentissue">
                         <a href="https://goodfirstissue.dev/language/java" class="java-link" data-toggle="modal">
 
-                        <img src="https://assets.stickpng.com/images/58480979cef1014c0b5e4901.png" height="150px" width="150px" class="text-center imageissue"/>
+                        <img src="https://raw.githubusercontent.com/github/explore/5b3600551e122a3277c2c5368af2ad5725ffa9a1/topics/java/java.png" height="150px" width="150px" class="text-center imageissue"/>
                         </a>
                         <h3 class="headerissue">Java</h3>
                       </div>
@@ -465,14 +470,14 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading" style="color:
-                    #af3e75;"><i class="fa fa-picture-o" aria-hidden="true"></i> Opensource Programms
+                    #af3e75;"><i class="fa-regular fa-rectangle-list" area-hidden="true"></i> Opensource Programs
                     </h2>
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="https://summerofcode.withgoogle.com/" class="portfolio-link prog" data-toggle="modal">
+                    <a href="https://summerofcode.withgoogle.com/" class="portfolio-link prog" data-toggle="modal" target="_blank">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -489,7 +494,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="https://hacktoberfest.digitalocean.com/register" class="portfolio-link prog" data-toggle="modal">
+                    <a href="https://hacktoberfest.digitalocean.com/register" class="portfolio-link prog" data-toggle="modal" target="_blank">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -506,7 +511,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="https://mlh.io/" class="portfolio-link prog" data-toggle="modal">
+                    <a href="https://mlh.io/" class="portfolio-link prog" data-toggle="modal" target="_blank">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -523,7 +528,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="https://www.outreachy.org/" class="portfolio-link prog" data-toggle="modal">
+                    <a href="https://www.outreachy.org/" class="portfolio-link prog" data-toggle="modal" target="_blank">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -540,7 +545,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="https://kde.in/" class="portfolio-link prog" data-toggle="modal">
+                    <a href="https://kde.org/" class="portfolio-link prog" data-toggle="modal" target="_blank">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -557,7 +562,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="https://gssoc.girlscript.tech/" class="portfolio-link prog" data-toggle="modal">
+                    <a href="https://gssoc.girlscript.tech/" class="portfolio-link prog" data-toggle="modal" target="_blank">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -612,7 +617,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Reach us </h2>
+                    <h2 class="section-heading">Get in touch with us to start your open-source journey now. </h2>
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
@@ -633,7 +638,7 @@
                                 </div>
                                 <div class="form-group">
                                     <input type="tel" class="form-control" placeholder="Your Phone *" id="phone"
-                                        required data-validation-required-message="Please enter your phone number.">
+                                        required data-validation-required-message="Please enter your phone number." onkeypress="isInputNumber(event)">
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
@@ -686,7 +691,31 @@
     <script src="typed.js"></script>
 
     <script src="js/contributors.js"></script>
+    <script src="js/scrolltoTop.js"></script>
 
+<!-- library for running text in js  -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<!-- added in running text on headline  -->
+<script>
+    var typed = new Typed('.runningtext', {
+strings: ["For Everyone","is about collaboration","is NOT about competition","For the Community","By the Community"],
+typeSpeed: 90,
+backSpeed:100,
+loop:true
+});
+</script>
+
+    <!-- library for running text in js  -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- added in running text on headline  -->
+    <script>
+        var typed = new Typed('.runningtext', {
+  strings: ["For Everyone","is about collaboration","is NOT about competition","For the Community","By the Community"],
+  typeSpeed: 90,
+  backSpeed:100,
+  loop:true
+});
+    </script>
 </body>
 
 </html>
