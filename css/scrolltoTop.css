@@ -1,21 +1,21 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 #scrollBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    border: none;
-    outline: none;
-    background-color: #B83B5E;
-    cursor: pointer;
-    padding: 10px;
-    border-radius: 5rem;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #b83b5e;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5rem;
 }
 
 #scrollBtn:hover {
-    background-color: rgb(235, 94, 129);
+  background-color: rgb(235, 94, 129);
 }

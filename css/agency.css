@@ -19,8 +19,7 @@ body {
 }
 
 /* community */
-#cc
-{
+#cc {
   background-image: url(../img/comclass.JPG);
 }
 
@@ -36,10 +35,10 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  outline:none;
+  outline: none;
 }
 a {
-  color: #B83B5E;
+  color: #b83b5e;
 }
 a:hover,
 a:focus,
@@ -61,20 +60,18 @@ h6 {
   margin: 0 auto;
 }
 .bg-light-gray {
-  background-color: #eeeeee;
+  background-color: #fcb9b9;
 }
 .bg-darkest-gray {
   background-color: #222222;
-
 }
-.explore{
-
+.explore {
   border-radius: 12px;
 }
 .btn-primary {
   color: white;
-  background-color: #B83B5E;
-  border-color: #B83B5E;
+  background-color: #b83b5e;
+  border-color: #b83b5e;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -85,8 +82,8 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #B83B5E;
-  border-color: #B83B5E;
+  background-color: #b83b5e;
+  border-color: #b83b5e;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -108,17 +105,17 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #fB83B5;
-  border-color: #B83B5E;
+  background-color: #fb83b5;
+  border-color: #b83b5e;
 }
 .btn-primary .badge {
-  color: #B83B5E;
+  color: #b83b5e;
   background-color: white;
 }
 .btn-xl {
   color: white;
-  background-color: #B83B5E;
-  border-color: #B83B5E;
+  background-color: #b83b5e;
+  border-color: #b83b5e;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -132,8 +129,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: #B83B5E;
-  border-color: #B83B5E;
+  background-color: #b83b5e;
+  border-color: #b83b5e;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -155,19 +152,19 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-  background-color: #B83B5E;
-  border-color: #B83B5E;
+  background-color: #b83b5e;
+  border-color: #b83b5e;
 }
 .btn-xl .badge {
-  color: #B83B5E;
+  color: #b83b5e;
   background-color: white;
 }
 .navbar-custom {
-  background-color: #B958A5;
+  background-color: #b958a5;
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-  color: #B83B5E;
+  color: #b83b5e;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-custom .navbar-brand:hover,
@@ -180,8 +177,8 @@ fieldset[disabled] .btn-xl.active {
   border-color: transparent;
 }
 .navbar-custom .navbar-toggle {
-  background-color: #B83B5E;
-  border-color: #B83B5E;
+  background-color: #b83b5e;
+  border-color: #b83b5e;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
@@ -189,7 +186,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #B83B5E;
+  background-color: #b83b5e;
 }
 .navbar-custom .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -206,12 +203,12 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
-  background-color: #B83B5E;
+  background-color: #b83b5e;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #B83B5E;
+  background-color: #b83b5e;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -242,7 +239,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/software-developer.jpg');
+  background-image: url("../img/software-developer.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -253,10 +250,9 @@ header {
   text-align: center;
   color: white;
 }
-.site-name{
-  font-family: 'Caveat','cursive';
+.site-name {
+  font-family: "Caveat", "cursive";
   font-size: 5px;
-
 }
 .cardissue {
   width: 260px;
@@ -268,20 +264,16 @@ header {
   margin-left: 40px;
 }
 .headerissue {
-    text-transform: uppercase;
-    font-size: 20px;
-    color: #f1f1f1;
-
-  }
-.imageissue{
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #f1f1f1;
+}
+.imageissue {
   margin-top: 50px;
 }
-.issue-box{
+.issue-box {
   margin-top: 30px;
 }
-
-
-
 
 header .intro-text {
   padding-top: 100px;
@@ -371,7 +363,11 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#portfolio
+  .portfolio-item
+  .portfolio-link
+  .portfolio-hover
+  .portfolio-hover-content {
   position: absolute;
   width: 100%;
   height: 20px;
@@ -381,11 +377,26 @@ section h3.section-subheading {
   margin-top: -12px;
   color: white;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+#portfolio
+  .portfolio-item
+  .portfolio-link
+  .portfolio-hover
+  .portfolio-hover-content
+  i {
   margin-top: -12px;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+#portfolio
+  .portfolio-item
+  .portfolio-link
+  .portfolio-hover
+  .portfolio-hover-content
+  h3,
+#portfolio
+  .portfolio-item
+  .portfolio-link
+  .portfolio-hover
+  .portfolio-hover-content
+  h4 {
   margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption {
@@ -467,7 +478,7 @@ section h3.section-subheading {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #B83B5E;
+  background-color: #b83b5e;
   color: white;
   border-radius: 100%;
   border: 7px solid #f1f1f1;
@@ -610,7 +621,7 @@ aside.clients img {
 }
 section#contact {
   background-color: #222222;
-  background-image: url('../img/map-image.png');
+  background-image: url("../img/map-image.png");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -631,16 +642,15 @@ section#contact .form-group textarea {
 
 section#contact .form-group input::placeholder,
 section#contact .form-group textarea::placeholder {
-  color:#707070;
-  font-size: 1.5rem ;
+  color: #707070;
+  font-size: 1.5rem;
 }
-
 
 section#contact .form-group input:focus,
 section#contact .form-group textarea:focus {
-   border: 1px solid #B83B5E;
-   box-shadow: 0 0 2px #B83B5E;
-   background-color: #222222;
+  border: 1px solid #b83b5e;
+  box-shadow: 0 0 2px #b83b5e;
+  background-color: #222222;
 }
 
 section#contact .form-group input.form-control {
@@ -727,10 +737,8 @@ ul.social-buttons li a:active {
 .btn.active,
 .btn:active:focus {
   outline: none;
-    background-color:aliceblue;
-    color:#B83B5E;
-
-
+  background-color: aliceblue;
+  color: #b83b5e;
 }
 
 .portfolio-modal .modal-dialog {
@@ -822,8 +830,8 @@ img::-moz-selection {
   background: transparent;
 }
 
-h4{
-    color:#6A2C70;
+h4 {
+  color: #6a2c70;
 }
 /*
 iframe{
@@ -835,19 +843,20 @@ iframe{
 .reach{
     margin-top:175px;
 }*/
-.ccimage{
+.ccimage {
   width: 180px;
   height: 100px;
 }
-.prog{
-
+.prog {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 280px;
   height: 280px;
 }
-.ossbox
-{
+.ossbox {
   height: 10vh;
+}
+.runningtext{
+  color: yellow;
 }

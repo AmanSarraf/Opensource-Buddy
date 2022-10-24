@@ -31,6 +31,7 @@
     <link href="css/agency.css" rel="stylesheet">
     <link rel="stylesheet" href="css/community.css">
     <link rel="stylesheet" href="./css/Issues_hover.css">
+    <link rel="stylesheet" href="./css/issues_transition.css">
 
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://fontawesome.com/releases/v5.15/css/all.css" />
@@ -73,8 +74,8 @@
                             Community</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio"><i class="fa fa-picture-o" aria-hidden="true"></i>
-                            Programms</a>
+                        <a class="page-scroll" href="#portfolio"><i class="fa-regular fa-rectangle-list" aria-hidden="true"></i>
+                            Programs</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#team"><i class="fa fa-users" aria-hidden="true"></i>
@@ -111,12 +112,13 @@
                 <div class="intro-lead-in" id="typed-strings">
 
 
-                    Opensource for everyone
+                    Opensource for <span class="runningtext"></span>
 
 
 
 
-                    <!-- Opensource for everyone -->
+                    <!-- 
+                        Opensource for everyone -->
 
 
 
@@ -130,7 +132,7 @@
 
                 <div class="intro-heading">Start your Opensource Journey</div>
 
-                <a href="#services" class="page-scroll btn btn-xl animate__pulse"> Explore</a>
+                <a href="#services" class="page-scroll btn btn-xl animate__pulse"  id="servicelink"> Explore</a>
                 <!-- <a href="#services" class="page-scroll btn btn-xl animate__pulse"> Explore</a> -->
             </div>
         </div>
@@ -489,14 +491,14 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading" style="color:
-                    #af3e75;"><i class="fa fa-picture-o" aria-hidden="true"></i> Opensource Programms
+                    #af3e75;"><i class="fa-regular fa-rectangle-list" area-hidden="true"></i> Opensource Programs
                     </h2>
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="https://summerofcode.withgoogle.com/" class="portfolio-link prog" data-toggle="modal">
+                    <a href="https://summerofcode.withgoogle.com/" class="portfolio-link prog" data-toggle="modal" target="_blank">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -515,6 +517,7 @@
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="https://hacktoberfest.digitalocean.com/register" class="portfolio-link prog"
                         data-toggle="modal">
+                    <a href="https://hacktoberfest.digitalocean.com/register" class="portfolio-link prog" data-toggle="modal" target="_blank">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -530,7 +533,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="https://mlh.io/" class="portfolio-link prog" data-toggle="modal">
+                    <a href="https://mlh.io/" class="portfolio-link prog" data-toggle="modal" target="_blank">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -547,7 +550,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="https://www.outreachy.org/" class="portfolio-link prog" data-toggle="modal">
+                    <a href="https://www.outreachy.org/" class="portfolio-link prog" data-toggle="modal" target="_blank">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -564,7 +567,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="https://kde.in/" class="portfolio-link prog" data-toggle="modal">
+                    <a href="https://kde.org/" class="portfolio-link prog" data-toggle="modal" target="_blank">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -581,7 +584,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="https://gssoc.girlscript.tech/" class="portfolio-link prog" data-toggle="modal">
+                    <a href="https://gssoc.girlscript.tech/" class="portfolio-link prog" data-toggle="modal" target="_blank">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -635,7 +638,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Reach us </h2>
+                    <h2 class="section-heading">Get in touch with us to start your open-source journey now. </h2>
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
@@ -744,6 +747,29 @@
     <script src="js/contributors.js"></script>
     <script src="js/scrolltoTop.js"></script>
 
+<!-- library for running text in js  -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<!-- added in running text on headline  -->
+<script>
+    var typed = new Typed('.runningtext', {
+strings: ["For Everyone","is about collaboration","is NOT about competition","For the Community","By the Community"],
+typeSpeed: 90,
+backSpeed:100,
+loop:true
+});
+</script>
+
+    <!-- library for running text in js  -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- added in running text on headline  -->
+    <script>
+        var typed = new Typed('.runningtext', {
+  strings: ["For Everyone","is about collaboration","is NOT about competition","For the Community","By the Community"],
+  typeSpeed: 90,
+  backSpeed:100,
+  loop:true
+});
+    </script>
 </body>
 
 </html>
