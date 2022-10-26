@@ -866,3 +866,8 @@ iframe{
 .runningtext{
   color: yellow;
 }
+@media screen and (max-width: 450px) {
+  header .intro-text .intro-heading h1 {
+    font-size: 40px;
+  }
+}
