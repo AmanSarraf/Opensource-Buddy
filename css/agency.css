@@ -239,6 +239,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
+  height: 100vh;
   background-image: url("../img/software-developer.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
