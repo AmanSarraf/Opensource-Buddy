@@ -871,17 +871,26 @@ iframe{
   width: fit-content;
   height: fit-content;
   padding: 10px;
-  background-color: #1b1c1b;
+  background-color: #b83b5e;
+  color: white;
   border-radius: 5px;
 }
-.contributor-container > img {
-  border-radius: 2.5px;
-  width: 150px;
+.contributor-container:hover {
+  color: white;
+  text-decoration: none;
 }
-.contributor-container > a {
+.contributor-container:hover span {
+  color: white;
+  text-decoration: underline;
+}
+.contributor-container > img {
+  border-radius: 50%;
+  width: 50px;
+}
+.contributor-container a {
   display: block;
   margin-top: 5px;
 }
-.contributor-container p {
-  margin: 0;
+.contributor-container span {
+  margin-left: 10px;
 }
