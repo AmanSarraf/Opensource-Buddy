@@ -330,7 +330,7 @@ section h3.section-subheading {
   text-transform: none;
   font-style: italic;
   font-weight: 400;
-  margin-bottom: 75px;
+  /* margin-bottom: 75px; */
 }
 @media (min-width: 768px) {
   section {
@@ -856,7 +856,7 @@ iframe{
   height: 280px;
 }
 .ossbox {
-  height: 10vh;
+  height: fit-content;
 }
 .runningtext{
   color: yellow;
