@@ -861,3 +861,27 @@ iframe{
 .runningtext{
   color: yellow;
 }
+#contributors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.contributor-container {
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  background-color: #1b1c1b;
+  border-radius: 5px;
+}
+.contributor-container > img {
+  border-radius: 2.5px;
+  width: 150px;
+}
+.contributor-container > a {
+  display: block;
+  margin-top: 5px;
+}
+.contributor-container p {
+  margin: 0;
+}
