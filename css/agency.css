@@ -287,7 +287,7 @@ header .intro-text .intro-lead-in {
   line-height: 22px;
   margin-bottom: 25px;
 }
-header .intro-text .intro-heading {
+header .intro-text .intro-heading h1 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -314,6 +314,11 @@ header .intro-text .intro-heading {
     font-size: 75px;
     line-height: 75px;
     margin-bottom: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .cardissue {
+    margin: 0 auto;
   }
 }
 section {
