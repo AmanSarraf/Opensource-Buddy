@@ -886,6 +886,10 @@ iframe{
   color: white;
   text-decoration: none;
 }
+.contributor-container:visited {
+  color: white;
+  text-decoration: none;
+}
 .contributor-container:hover span {
   color: white;
   text-decoration: underline;
