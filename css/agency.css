@@ -866,6 +866,46 @@ iframe{
 .runningtext{
   color: yellow;
 }
+
+#contributors {
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.contributor-container {
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  background-color: #b83b5e;
+  color: white;
+  border-radius: 5px;
+}
+.contributor-container:hover {
+  color: white;
+  text-decoration: none;
+}
+.contributor-container:visited {
+  color: white;
+  text-decoration: none;
+}
+.contributor-container:hover span {
+  color: white;
+  text-decoration: underline;
+}
+.contributor-container > img {
+  border-radius: 50%;
+  width: 50px;
+}
+.contributor-container a {
+  display: block;
+  margin-top: 5px;
+}
+.contributor-container span {
+  margin-left: 10px;
+}
+
 @media screen and (max-width: 450px) {
   header .intro-text .intro-heading h1 {
     font-size: 40px;
