@@ -4,6 +4,7 @@
 
 
 ### frontend:- 
+             - [Building a Light/Dark Dashboard](https://www.youtube.com/playlist?list=PLUWqFDiirlsu5az5EIyxe8ZddyNO_kDuP)
              - [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
              - [LESS](https://lesscss.org/)
              - [scss](https://sass-lang.com/)
@@ -16,7 +17,6 @@
 ### DevOps:- 
              -  [start with Devops](https://about.gitlab.com/topics/devops/)
              -  [Documentation of Docker](https://docs.docker.com/engine/reference/builder/)
-             -  [Continuous Delivery & DevOps](https://www.coursera.org/learn/uva-darden-continous-delivery-devops)
 
 ### Animation: 
              - [Used Animation](http://daneden.me/animate)
